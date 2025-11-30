@@ -20,4 +20,4 @@ Some HTTP parameter names are more frequently associated with certain functional
     - When `--removekeywords` and `--addkeywords` are used together, `--addkeywords` takes precedence. Any vuln type with their corresponding keywords added using `--addkeywords` will be added regardless they are removed using `--removekeywords` or not.
 - Incomplete option names are accepted. For example, `--nostr` is a valid shorthand for `--nostrict`. However, always use the full option name!
 
-- Tip: When filtering output by vulnerability type: Since a single URL can be associated with multiple vuln types, avoid using 'grep -v' to exclude other types — it may even filter out URLs having the target vuln type.  Instead, use 'grep <vulntype>' to include what you want, even if other vuln types are also shown.
+- Tip: When filtering output by vulnerability type: Since a single URL can be associated with multiple vuln types, avoid using 'grep -v' to exclude other types - it may even filter out URLs having the target vuln type.  Instead, use 'grep <vulntype>' to include what you want, even if other vuln types are also shown.
