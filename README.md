@@ -7,7 +7,7 @@ What it does?
 Maps parameter names to commonly associated vulnerability types.
 
 ## Introduction
-Some HTTP parameter names are more frequently associated with certain functionalities. For example, the parameter `?url=` usually contains a URL as its value and is therefore often susceptible to file inclusion, open redirect, and SSRF attacks. ParamSage can process a list of URLs to identify such parameter names and the vulnerabilities typically linked to them. It is designed to assist web security testing by helping prioritize components for testing.
+Some HTTP parameter names are more frequently associated with certain functionalities. For example, the parameter `?url=` usually contains a URL as its value and is therefore often susceptible to open redirect and SSRF attacks. ParamSage can process a list of URLs to identify such parameter names and the vulnerabilities typically linked to them. It is designed to assist web security testing by helping prioritize components for testing.
 
 ### Some points to keep in mind or might come handy while using ParamSage
 - Input parameter names are treated case-insensitively (e.g., TO, to, and To are treated the same). Output preserves the original casing of parameters for input provided using pipe but not for input keywords (parameters) provided using cli options.
