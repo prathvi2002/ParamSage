@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/ishu/projects/ParamSage/env/bin/python3
 
 import sys
 from urllib.parse import urlparse
